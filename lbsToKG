@@ -1,0 +1,5 @@
+print("Pounds\tKilogram")
+for Pounds in range(1,11):
+    kilograms=Pounds/2.20462262
+    print(f"{Pounds}\t{kilograms:.2f}")
+
